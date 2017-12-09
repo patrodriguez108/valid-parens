@@ -17,16 +17,17 @@ def longest_valid_parentheses(s)
 			i += 1
 		end
 	end
-	parens.join.split('').count
+	parens.join.split('').length
 end
 
-# exam_one = "()"
+exam_one = "()"
 
-# longest_valid_parentheses(exam_one)
+longest_valid_parentheses(exam_one)
 
 exam_two = "(()"
 
-p longest_valid_parentheses(exam_two)
+longest_valid_parentheses(exam_two)
 
 exam_three = ")()())"
 
+longest_valid_parentheses(exam_three)
